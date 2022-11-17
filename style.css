@@ -33,24 +33,33 @@ main {
   border-radius: 25px;
   /* overflow: hidden; */
   padding: 25px;
-  
 }
 h1 {
   text-align: center;
+  margin: 25px 0;
 }
 
+p{
+    display: inline;
+}
 .question {
   margin: 15px 0;
+  display: flex;
 }
 
 img {
-  max-width: 80%;
-  /* margin-top: -170px; */
+  max-width: 85%;
+  margin-top: -150px;
   text-align: center;
+  margin-left: 20px;
 }
 
 hr {
   border-style: none;
   height: 0.6px;
   background-color: var(--Light-grayish-blue);
+}
+
+.answer{
+    display: hidden;
 }
